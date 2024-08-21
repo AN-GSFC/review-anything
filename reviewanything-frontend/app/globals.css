@@ -1,0 +1,27 @@
+/* Tailwind Directives (Unchanged) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+@import 'react-pdf/dist/esm/Page/TextLayer.css';
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Root Styles */
+
+
+/* Body Styles */
+body {
+  font-family: 'Inter', sans-serif; 
+  user-select: none; /* Disables text selection */
+}
+/* styles/globals.css */
+
+
+/* Text Balance Utility (Unchanged) */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
