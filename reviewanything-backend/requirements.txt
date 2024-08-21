@@ -1,0 +1,11 @@
+flask
+werkzeug
+python-magic
+nltk
+unstructured-client
+langchain-unstructured
+langchain-community
+unstructured[pdf]
+requests
+chromadb
+flask-cors

@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./reviewanything-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      - OLLAMA_ORIGINS=*
+      - OLLAMA_HOST=0.0.0.0:11434
+    command: npm run dev -- -p 9000 
+    volumes:
+      - ./reviewanything-frontend:/app
+      - /app/node_modules  # prevents node_modules from being overwritten by the volume
+
+  backend:
+    build:
+      context: ./reviewanything-backend
+      dockerfile: Dockerfile
+    ports:
+      - "9001:9001"
+    environment:
+    command: python app.py
+    volumes:
+      - ./reviewanything-backend:/app
+      - /app/venv  # prevents the virtual environment from being overwritten by the volume
+
+
+
+# volumes:
+#   ollama_volume:
