@@ -21,7 +21,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 * **Control:** Customize model behavior by adjusting temperature and prompts to achieve the ideal balance of creativity and accuracy.
 * **Source Management:** Change the number of document sources the model draws from when formulating responses.
 * **Intuitive Interface:** Navigate a user-friendly, resizeable workspace with a built-in PDF viewer, allowing for easy cross-referencing of model citations and original text.
-* **Offline Functionality:** Work with without an internet connection, ensure data privacy and maximum uptime.
+* **Offline Functionality:** Work with without an internet connection, ensuring data privacy and maximum uptime.
 
 ## 🚀 Local Installation
 
