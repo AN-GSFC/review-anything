@@ -26,7 +26,7 @@ Review Anything can be run completely locally without internet access. It is hig
 
 #### **Recommended:**
 
-* **GPU:** A dedicated GPU with 5 GB or more of VRAM is recommended for optimal performance.
+* **GPU:** A dedicated GPU with 8 GB or more of VRAM is recommended for optimal performance with llama3.1 8B.
 * **Memory:** 16 GB of system memory is recommended.
 
 ### Installation Steps
