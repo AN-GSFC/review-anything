@@ -13,7 +13,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 </table>
 
 
-## ✨ Key Features
+## Key Features
 
 * **Question and Answer Generation:** Craft and answer questions for any document with citations, guided by a rubric document.
 * **Interactive Document Chat:** Chat with your documents through conversations. Ask questions, seek summaries, etc. all with cited sources.
@@ -23,7 +23,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 * **Intuitive Interface:** Navigate a user-friendly, resizeable workspace with a built-in PDF viewer, allowing for easy cross-referencing of model citations and original text.
 * **Offline Functionality:** Work with without an internet connection, ensuring data privacy and maximum uptime.
 
-## 🚀 Local Installation
+## Local Installation
 
 ### Prerequisites
 
