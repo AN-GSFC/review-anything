@@ -1,6 +1,17 @@
 # Review Anything
 
 Review Anything is a local AI-powered document reviewer. It leverages the capabilities of large language models via Ollama, allowing you interact with and evaluate documents.
+<table style="border: none;">
+<tr>
+<td><img src="https://github.com/user-attachments/assets/eb85c357-2c40-47bb-8e20-8274a8330fe0" alt="Document Chat Example" style="width: 800px;">
+<p style="text-align: center;">Document Chat Example</p>
+</td>
+<td><img src="https://github.com/user-attachments/assets/37e1620c-9e69-46a4-a47d-0a43ae47bde2" alt="Question Answering Example" style="width: 800px;">
+<p style="text-align: center;">Question Answering Example</p>
+</td>
+</tr>
+</table>
+
 
 ## ✨ Key Features
 
