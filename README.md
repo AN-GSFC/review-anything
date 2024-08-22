@@ -50,7 +50,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/AI-GSFC/review-anything.git
+   git clone https://github.com/AN-GSFC/review-anything.git
    cd review-anything
    ```
 
