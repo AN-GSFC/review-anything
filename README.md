@@ -43,7 +43,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 
 #### Nice-to-Haves:
 
-* **GPU:** A dedicated GPU with 8+ GB VRAM for optimal performance with llama3.1 8B.
+* **GPU:** A GPU with 4+ GB VRAM for optimal performance with llama3.1 8B.
 * **Memory:** 16 GB of system memory for smooth operation.
 
 ### Install review anything
