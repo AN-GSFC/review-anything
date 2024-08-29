@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   frontend:
+    privileged: true
     build:
       context: ./reviewanything-frontend
       dockerfile: Dockerfile
@@ -16,6 +17,7 @@ services:
       - /app/node_modules  # prevents node_modules from being overwritten by the volume
 
   backend:
+    privileged: true
     build:
       context: ./reviewanything-backend
       dockerfile: Dockerfile
