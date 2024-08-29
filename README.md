@@ -38,7 +38,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
         * `sudo systemctl restart ollama`
     * Install the Llama 3.1 model: `ollama pull llama3.1`
 * **Podman:** Version 4.6.2 or later (https://podman.io/docs/installation)
-* **Podman-Compose:** Version 1.2.0 or later (`pip install podman-compose`)
+* **Podman Compose:** Comes with podman (`podman compose`). If podman-compose is not found, install podman-compose Version 1.2.0 or later (`pip install podman-compose`)
 * **Disk Space:** A minimum of 15 GB of free space.
 
 #### Nice-to-Haves:
@@ -47,7 +47,7 @@ Review Anything is a local AI-powered document reviewer. It leverages the capabi
 * **Memory:** 16 GB of system memory for smooth operation.
 
 ### Install review anything
-
+**The podman containers are NOT rootless**
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/AN-GSFC/review-anything.git
